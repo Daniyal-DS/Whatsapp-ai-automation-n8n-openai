@@ -1,2 +1,57 @@
-# Whatsapp-ai-automation-n8n-openai
-An intelligent WhatsApp Bot leveraging n8n automation and OpenAI's LLMs for 24/7 customer support and multi-format media handling (text, audio, video)
+# 🤖 WhatsApp AI Automation Bot (n8n & OpenAI)
+
+## 🌟 Overview
+This project demonstrates a robust, scalable, and intelligent WhatsApp automation solution designed to transform customer support and interactive communication for businesses. It seamlessly integrates the **n8n workflow automation platform** with **OpenAI's Large Language Models (LLMs)** to handle complex user queries and media formats automatically.
+
+The goal is to showcase how businesses can achieve **24/7 availability**, significantly **faster response times**, and a **seamless user experience** across various industries (e.g., appointment booking, e-commerce support).
+
+## ✨ Key Features
+
+* **Intelligent Text Handling:** Uses OpenAI to provide contextual and human-like replies to customer inquiries.
+* **Multi-Media Support:** Automated processing of **Text, Audio, and Video** messages.
+* **Workflow Automation (via n8n):** Handles complex tasks like data logging, CRM updates, and external API calls.
+* **Scalable & Customizable:** Built on low-code/no-code principles (n8n) for easy adaptation to different business requirements.
+* **Appointment & Booking Management** (Demonstration use-case).
+
+---
+
+## 📺 Demo Video (Working System)
+
+**(IMPORTANT: Replace the link below with your actual YouTube or video platform link)**
+
+Click the image below to watch a short demonstration of the bot handling various customer requests and media inputs:
+
+[![Watch the Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](YOUR_VIDEO_LINK)
+
+---
+
+## 🛠️ Technology Stack
+
+| Component | Tool / Library | Role |
+| :--- | :--- | :--- |
+| **Automation Platform** | `n8n` | Workflow orchestration and webhook handling. |
+| **AI Backend** | `OpenAI API (GPT-4/3.5)` | Generative AI for intelligent responses and conversation flow. |
+| **Messaging** | `WhatsApp Business API / Twilio` | Primary communication channel. |
+| **Programming** | `Python / JavaScript` | (Used for custom functions/scripts within n8n, if any) |
+| **Media Handling** | `n8n modules` | Processing and managing audio/video inputs. |
+
+## 🚀 How to Set Up (Local Installation)
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/whatsapp-ai-automation-n8n-openai.git](https://github.com/YOUR_USERNAME/whatsapp-ai-automation-n8n-openai.git)
+    ```
+2.  **n8n Setup:**
+    * Deploy n8n locally or on a cloud platform (e.g., Docker).
+    * Import the provided workflow JSON file (`whatsapp_bot_workflow.json` - *If you plan to export your n8n workflow*).
+3.  **API Keys:**
+    * Obtain and configure your **OpenAI API Key** and **WhatsApp API/Twilio Credentials** within the n8n environment variables.
+4.  **Webhook Configuration:**
+    * Set up a webhook listener in n8n and register its URL with your WhatsApp provider to receive incoming messages.
+
+## 🤝 Contribution & License
+
+This project is maintained by **Daniyal Haider**.
+
+* Feel free to fork the repository and explore the automation logic.
+* Licensed under the **MIT License**.
