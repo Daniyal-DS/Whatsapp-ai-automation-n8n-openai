@@ -17,11 +17,7 @@ The goal is to showcase how businesses can achieve **24/7 availability**, signif
 
 ## 📺 Demo Video (Working System)
 
-**(IMPORTANT: Replace the link below with your actual YouTube or video platform link)**
-
-Click the image below to watch a short demonstration of the bot handling various customer requests and media inputs:
-
-[![Watch the Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](YOUR_VIDEO_LINK)
+📁 [Access the Bot Demo Videos on Google Drive](https://drive.google.com/drive/folders/1tPaYnoy6zXwrxBnQx5lT4YZjNquB-77Q?usp=sharing)
 
 ---
 
@@ -39,7 +35,7 @@ Click the image below to watch a short demonstration of the bot handling various
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/whatsapp-ai-automation-n8n-openai.git](https://github.com/YOUR_USERNAME/whatsapp-ai-automation-n8n-openai.git)
+    git clone [https://github.com/Daniyal-DS/Whatsapp-ai-automation-n8n-openai]
     ```
 2.  **n8n Setup:**
     * Deploy n8n locally or on a cloud platform (e.g., Docker).
